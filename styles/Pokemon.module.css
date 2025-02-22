@@ -29,4 +29,30 @@
   .link:hover {
     text-decoration: underline;
   }
+
+  .image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+    margin: 20px auto;
+  }
+
+  .evolutionContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
   
+  .evolutionItem {
+    text-align: center;
+  }
+  
+  .evolutionImage {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
